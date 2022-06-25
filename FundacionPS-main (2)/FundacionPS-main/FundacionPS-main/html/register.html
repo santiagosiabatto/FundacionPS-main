@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="/css/register.css">
+	<meta charset="UFT-8">
+
+	<title>FORMULARIO DE REGISTRO</title>
+</head>
+
+<body>
+	<nav class="nav">
+		<a href="index.html"><img src="/assets/img/logo-fundacion-blanco.png" class="logo" alt=""></a>
+		<ul class="menu">
+			<li><a href="#Biografia">Educación</a></li>
+			<li><a href="#Cuentos">Vivienda</a></li>
+			<li><a href="#Poesia">Consultoria</a></li>
+			<li><a href="/html/about_us.html">Sobre nosotros</a></li>
+			<li><a href="/html/contactenos.html">Contactenos</a></li>
+		</ul>
+	</nav>
+	<div class="container-formulario">
+		<h2>
+			FORMULARIO DE REGISTRO
+		</h2>
+	
+		<form>
+			<fieldset>
+				<label>Nombres: </label>
+				<input type="text" name="Nombres" />
+			</fieldset>
+			<fieldset>
+				<label>Apellidos: </label>
+				<input type="text" name="Apellidos">
+			</fieldset>
+			<fieldset>
+				<label>Fecha De Nacimiento: </label>
+				<input type="date" name="Fecha De Nacimiento">
+			</fieldset>
+			<fieldset>
+				<label>Direccion: </label>
+				<input type="text" name="Direccion:">
+			</fieldset>
+			<fieldset>
+				<label> Telefono: </label>
+				  
+			</fieldset>
+			<fieldset>
+				<label for="Estado">Estado Civil:</label>
+				<select id="Estado" name="Estado">
+					<option value="Opciones">Opciones</option>
+					<option value="Casad@">Casad@</option>
+					<option value="Solter@">Solter@</option>
+					<option value="Divorsiad@">Divorsiad@</option>
+					<option value="Viud@">Viud@</option>
+				</select>
+			</fieldset>
+			<fieldset>
+			<label for="Documento">Tipo de documento: </label>
+			<select id="Documento" name="TIPO DE DOCUMENTO">
+				<option value="Opciones">Opciones</option>
+				<option value="T-Tarjeta de identidad">T-Tarjeta de identidad</option>
+				<option value="C-Cedula de ciudadania">C-Cedula de ciudadania</option>
+				<option value="E-Cedula de extrangeria">E-Cedula de extrangeria</option>
+				<option value="P-Pasaporte">P-Pasaporte</option>
+				<option value="Z-Permiso de permanencia">Z-Permiso de permanencia</option>
+			</select>
+			</fieldset>
+		    <fieldset> 
+			<label>Numero de documento: </label>
+			<input type="text" name="NUMERO DE DOCUMENTO">
+		    </fieldset> 
+	        <fieldset> 
+			<label>Correo Electronico: </label>
+			<input type="text" name="CORREO">
+	        </fieldset>
+		    <fieldset>	
+			<label>Usuario: </label>
+			<input type="text" name="USUARIO:">
+		    </fieldset>
+		    <fieldset>
+			<label> Contraseña: </label>
+			<input type="password" name="CONTRASEÑA:">
+		    </fieldset>
+		    <fieldset>
+			<label> Confirmar Contraseña: </label>
+			<input type="password" name="CONFIRMAR CONTRASEÑA:">
+		    </fieldset>
+			<fieldset>
+				<label></label>
+				<input class="checkbox" type="checkbox"><label class="check" for="checkbox"> Estoy de acuerdo</label> <a class="check" href="#">Terminos y condiciones</a>
+			
+			</fieldset>
+			<fieldset>
+				<button>Enviar</button>
+			</fieldset>
+		</form>
+
+		<br>
+
+	</div>
+</body>
+
+</html>
